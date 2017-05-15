@@ -1,0 +1,3 @@
+To run this on your terminal:
+javac genii_ui.java
+java genii_ui
