@@ -1,0 +1,862 @@
+Init: initializing centroids
+Init: initializing clusters
+Starting iterations...
+Run 1, iteration: 1/100, moves: 63, cost: 1510.0
+Run 1, iteration: 2/100, moves: 0, cost: 1510.0
+Init: initializing centroids
+Init: initializing clusters
+Starting iterations...
+Run 2, iteration: 1/100, moves: 59, cost: 1472.0
+Run 2, iteration: 2/100, moves: 8, cost: 1472.0
+Init: initializing centroids
+Init: initializing clusters
+Starting iterations...
+Run 3, iteration: 1/100, moves: 36, cost: 1361.0
+Run 3, iteration: 2/100, moves: 0, cost: 1361.0
+Init: initializing centroids
+Init: initializing clusters
+Starting iterations...
+Run 4, iteration: 1/100, moves: 19, cost: 1401.0
+Run 4, iteration: 2/100, moves: 12, cost: 1401.0
+Init: initializing centroids
+Init: initializing clusters
+Starting iterations...
+Run 5, iteration: 1/100, moves: 52, cost: 1387.0
+Run 5, iteration: 2/100, moves: 0, cost: 1387.0
+Best run was number 3
+[[  3   0   0 ...,   0   0   0]
+ [ 11   0   0 ...,   0   0   0]
+ [  0   1   0 ...,   0   0   0]
+ ..., 
+ [612   1   0 ...,   0   0   0]
+ [606   1   0 ...,   0   0   0]
+ [ 31   0   0 ...,   0   0   0]]
+[ 2 26  4  0  2 19  2  6  9  4 17  1  9  4  9 19  0 26 19 26  9 12 18  1  0
+ 18 19 24 19 19  1 29  4 21  0  1  2  2  4  4  4  1  6 17 19  1  9  2  1  9
+  0 19  3  9  9  6 19 24  4  0 19  9  3 18  0  2  4  2  2  2  1  4  4  2 19
+  1 24 18 19  9 10  0 12  4 19 17 19 19 17  9  9  2  4  2 19 19 19  1  4 23
+ 19 12 20  1  4  1  0  0  0 24  2  9 26  3 18 10 25  4  1  4  0 21  9  1  9
+  4  4 13  3  2  2 20  4  4  1  7  1 19  4  9 19  4 12  4 19 15  9 21  2  0
+  3 12 18  4 12  1 12 12 13  4 13 12 12 12 15 26  4 18  9 19  1  9 17  9 12
+  4 12  8  0 12  0  9 12  4  9  1  4  9 24  9  4 15  0 10  9  0 12  4  9 12
+ 19 19  1 26  9  4  9  1  4  2  0 26  4  0 12  0  3 19  9  4  1  4  4  0  1
+ 17  4 19 19 24  3  4 17 19  2  6 19 21 19  3 10 19 24 19  1  9  6  2  2 19
+  9  2 12  4  0  4  4  4  4  4 19  9  0 19  9  0  2 25  2  2 13 12  9  0 12
+ 26 13  4  1  0  4 19  3 19  1 13 26  1  1 12 13 19 19 19 19  9 17  9  3  4
+ 17  1 26  2  2  3  0  4  4 19 19  1  4 26 13  4  4 19  3  4  9  4 19  9  4
+ 26  1  6  4  0 19  9 24  2  4  2 26  0  1  8 18  2 15 21 19  1 20 19 19  1
+ 12  1 26  2  4  9 17  2  2  1  8 19 12 21 19  9 10 20  9 24  2  2  6 12  1
+  9 19 19 17 17  6 26  4 21 18  6 12 12 18 19  3 24 26 19 26 24 13  9  4  9
+ 13  1 13  5  2 19 24  4 19 26  0 10 26  2  1 12 18 26 18 19 13 19  1 17  4
+  3 22  9 19  0  4  4  2 10  4  1 12  4 10  2  9 18 18  9  9  9  2 21 10  4
+ 26 12 19 21  0  4  4  0 12  4  2 12  1  4  6  1 18 10  4 19  2  9 12 13 10
+  1  4  2  9 17 26 17 26 20 24  2  3  1 10  1  4 12  2  6  9  4  8  3  4 19
+ 21 24  4  2  6  2 19  2 18 17 26  2  9  2  2  2  2  4 19 11  4  1  1  1 19
+ 19 19  2  1  0  2 12  4 19  0  1  9  0 14  2  2  3  2  9  4  4  4  4 26  0
+ 19  9  6 19 19  4 26 17 21 19 12  9 10  4 18  3  1 26  9  2  9  4  1 26 21
+ 26 10  2  6 10 19 16 19 19  2 19  4 19 21 21 19  0  0  9  4 19  2  4  4 10
+  3  0  4  2  4  0 28 10 12  3 12  9 27  2  2  4  4  4 12 26 12 26 13  9 22
+  4 17 19 17  4  1 19  6 10 19  4 12  8  2  0  0 19  9  2 17 10 10 10  0 26
+  6 12 24  4  4 19  2 19 19  1  4 22 24 10  1  4  3  6  6  3 17  2  2 26 26
+  8  0  2  9  9  2 10  9  2 19  1  1  9 19  9  4 17 10  0  1 17  4 12 19 19
+  9 19 19 18 26 13 21 17  0 15 18 19  0 19  4 12  9 24  4  2  4  2  4  4  0
+ 15  2 10 19  4 21  2  2 19 19 10 13 10  0  9]
+740
+Bhartiya Jalpan : 2
+Polar Bear : 26
+Sri Lakshmi Restaurant : 4
+Ginger Tiger : 0
+Tandoor : 2
+Shebestan - Sterlings MAC Hotel : 19
+Eatongo.in : 2
+Chili's : 6
+Cafe Srinidhi : 9
+K2B Restaurant : 4
+Spicy Corner : 17
+Achayyan's : 1
+New Udupi Fresh Juice Centre : 9
+Tasty Stories : 4
+Breadworks : 9
+Goodness! Beverages : 19
+Raenss Cafe : 0
+Kulfi Point : 26
+Andhra Mess : 19
+Siris Corner Ice Cream : 26
+Inhouse Burger : 9
+Cake Walk : 12
+Bootlegger : 18
+The Restaurant - Coorg : 1
+Gobble Grill : 0
+Workbench Projects Cafe : 18
+Berrylicious : 19
+Meghana Foods : 24
+Costa Coffee : 19
+nan : 19
+Andal Mess : 1
+BR Military Hotel : 29
+Nandhini Paradise : 4
+Rooster's - Soul Kitchen : 21
+Kolkatta Famous Kati Rolls : 0
+Om Sai Skanda Dosa Camp : 1
+Sindh Kitchen : 2
+Dhaba By Claridges : 2
+Red Chilliez : 4
+Kabab Palace : 4
+Belly Doze : 4
+Bengaluru House : 1
+FreshMenu : 6
+Kartik's Mithai Shoppe : 17
+7 Hills Andhra Mess : 19
+Namma Mane Oota : 1
+Desi Adda : 9
+Oyster Bay : 2
+Dakshin Biryani & Tiffin : 1
+Sweet Chariot : 9
+Memories of China - Vivanta By Taj : 0
+Chai Cafe : 19
+Cross Roads Cafe : 3
+Sid's Take Away : 9
+King Burger Cafetaria : 9
+Burger King : 6
+Tom Yum Thai : 19
+Swaadpurna : 24
+Tamarind House : 4
+The Chennai Express : 0
+The Cool Zone : 19
+McDonald's : 9
+J's Pastas and Pizzas : 3
+Harry's Bar + Cafe : 18
+Szechwan Court - The Oberoi : 0
+Tiger Trail - Royal Orchid Hotel : 2
+Jive Pub : 4
+The Punjabi Rasoi : 2
+Murphy's Brewhouse - The Paul Bangalore : 2
+Punjabi By Nature : 2
+Nimma Mane : 1
+Kadamba Foodline : 4
+Udupi Park Restaurant : 4
+Sandras Bar & Restaurant : 2
+Domino's Pizza : 19
+Lakshmi Hotel : 1
+Begum's Biriyani : 24
+g77 Café : 18
+Domino's Pizza : 19
+Creams N Browns : 9
+Birinz : 10
+Spicy N Ginger : 0
+Jini's Goodies : 12
+ABC Grand : 4
+Chaipatty : 19
+Tibbs Frankie : 17
+The Mad Teapot : 19
+Abroo : 19
+Shree Mithai : 17
+Pizza Hut : 9
+Five Star Chicken : 9
+Dishoom : 2
+Foodhall : 4
+The Punjabi Bites : 2
+Ice Cream Works : 19
+Esplanade : 19
+Kundapura's Juice Cafe : 19
+Malabar : 1
+The Hub & The Bar - Hotel Ramada Encore : 4
+Motis Kitchen : 23
+Golden Cherry : 19
+The Cake House : 12
+Smoor : 20
+Biryani Club : 1
+Java : 4
+Om Sai Skanda Dosa Camp : 1
+Kim Lee Restaurant : 0
+Neema Restaurant : 0
+Shree Sadguru Refreshment : 0
+Hotel Salala : 24
+Monkey Bar : 2
+Kaati Zone : 9
+Sugar & Spice - Vivanta By Taj : 26
+Oregano Pizzeria : 3
+Yomama!! : 18
+Gundappa Donne Biryani : 10
+Monsoon - The Park : 25
+New Al Ameen Restaurant : 4
+Kadai Crust - Amma Veetu Samayal : 1
+Tipsy Bull - The Bar Exchange : 4
+Take 5 : 0
+Cafe Velvette : 21
+Desi Adda : 9
+Rasa India : 1
+Beri-tto : 9
+The Paramount Hotel : 4
+Smaaash : 4
+Copper Chimney : 13
+Toit : 3
+Barbeque Kitchen : 2
+TFC - Tony's Food Corner : 2
+InnerChef : 20
+Sherlock's Pub : 4
+Shalimar : 4
+Om Shakti Hotel : 1
+nan : 7
+nan : 1
+Drink King : 19
+Shreedevi : 4
+Oven Fresh : 9
+SipMeal : 19
+Hangover : 4
+Lazy Suzy : 12
+Status Fine Dine : 4
+Shaap : 19
+Peacock : 15
+Chai Point : 9
+News Cafe : 21
+La Mirch : 2
+Venus Biryani : 0
+The Grill House : 3
+Cakes On Wheels : 12
+Roadhouse : 18
+Chinese Fire Dragon : 4
+Just Baked : 12
+Windsor Pub : 1
+Cakes Corner : 12
+Lakeview Milkbar : 12
+Sree Spicy Hub : 13
+Srinidhi Sagar Deluxe : 4
+Ammi's Biryani : 13
+Glen's Bakehouse : 12
+nan : 12
+Cake Palace : 12
+Treat : 15
+Delicious Ice Cream Parlour : 26
+Biryani Corner : 4
+Tea Brew : 18
+Meat And Eat (ME) : 9
+Siam Trading Company : 19
+Greenbowl : 1
+Bikers Cafe : 9
+Samosa Party : 17
+Bun Maska Chai : 9
+Shawn's Bakehouse : 12
+Srinidhi Sagar : 4
+The Leela Cake Shop - The Leela Palace : 12
+612 East : 8
+Chung Wah Express : 0
+Fudgy Love Designer Cakes : 12
+Chungs Pavilion : 0
+Sabari Juice Junction : 9
+Delices : 12
+Golden Plate Restaurant : 4
+Biryani Palace : 9
+Sri Veeranjaneya Swamy Tiffin Centre : 1
+Nandanaam : 4
+Cafe Terra : 9
+Imperial Restaurant : 24
+Big Mummy : 9
+Meaza Ginger Multi Cuisine Restaurant : 4
+Masala Dani - The Paul : 15
+Delicacy : 0
+Hotel Bismillah : 10
+Havbit : 9
+Roll House : 0
+The French Loaf : 12
+Hungree Belly Express : 4
+The Moo Point : 9
+The Bakery : 12
+Kerala Pavilion : 19
+Baskin Robbins : 19
+Gowdru Hotel : 1
+Haagen Dazs : 26
+Juice Chariot : 9
+Dine @ 9 Paratha Corner : 4
+Mojo Pizza : 9
+Sree Naachiyar Mess : 1
+Vapour Pub & Brewery : 4
+Punjabi Food House : 2
+Mainland China : 0
+The Right Moo Organic Icecreams : 26
+Zaitoon : 4
+Beijing Bites : 0
+Daily Bread : 12
+Hotel Malbar : 0
+Flying Spaghetti Monster : 3
+Big Straw Boba Cafe : 19
+Ice Cubes : 9
+Cafe Grill : 4
+Tasting Room - Bengaluru Oota Company : 1
+Sri Krishna Sagar : 4
+Viceroy's Sarathi : 4
+48 East : 0
+Sai Durgah Andra Mess : 1
+Ishta Upahar : 17
+Aagaman Veg : 4
+Nagarjuna : 19
+Lassi Shop : 19
+Nite Out : 24
+Le Cirque Signature - The Leela Palace : 3
+Roshan Taj : 4
+Kartik Sweets : 17
+Nando's : 19
+Swaad : 2
+The Bite Club : 6
+RAW Pressery : 19
+Joe's Joint : 21
+Tosco : 19
+Pasta Street : 3
+Bismillah Ambur Biryani : 10
+One Night In Bangkok : 19
+Palki Restaurant : 24
+Matteo Coffea : 19
+Trinity Home Kitchen : 1
+PurpleBasil.in : 9
+Souvee : 6
+Baba Da Dhaba : 2
+Food Of Punjab : 2
+Carnival de Goa : 19
+Kitchen of Joy : 9
+Cirrus : 2
+Taantraa - Organic Handbaking : 12
+Bob's Restaurant : 4
+Wangs Kitchen : 0
+S R Kabab Corner : 4
+Hotel Hyperdine : 4
+New Plantain Leaf : 4
+Shree Durga : 4
+Srinidhi Sagar Food Line : 4
+BB's Pizza Place : 19
+Five Star Cafe : 9
+The Tao Terraces : 0
+Bekal : 19
+Stoner : 9
+Bottle & Glass : 0
+Bhikaram Chandmal Bhujiawala : 2
+Bricklane : 25
+Baba Fattoosh : 2
+Dal Roti Sabji : 2
+Thunder Fried Chicken : 13
+Me And My Cake : 12
+Momo Corner : 9
+Bangalore Mandarin : 0
+Marzipan Cafe & Bakery : 12
+Corner House Ice Cream : 26
+RJ Food Plaza : 13
+Sri Udupi Park : 4
+Mavalli Tiffin Room (MTR) : 1
+Hongkong Noodles : 0
+Status : 4
+Cafe Coffee Day : 19
+Smoke House Deli : 3
+Phobidden Fruit : 19
+A2B Veg : 1
+The Biryanis : 13
+Menchies Frozen Yogurt : 26
+Donne Biriyani Mane : 1
+Annapoorani - Truly South Indian : 1
+Amma's Pastries : 12
+Petoo : 13
+Cup Shup : 19
+Baskin Robbins : 19
+iTiffin : 19
+The Coffee Bean & Tea Leaf : 19
+Pathaan Sir : 9
+KC Das - Sweet Paradise : 17
+Fresh Juice Junction : 9
+Pizza Stop : 3
+Punjabi Planet : 4
+Amrutha Sweets : 17
+Sri Udupi Park Lounge : 1
+Choco Allure : 26
+The Pink Poppadom - Hyatt Bangalore MG Road : 2
+Moodforfood.in : 2
+Crunch Pizzas : 3
+Pot-O-Noodles : 0
+Regulars Pub & Grub : 4
+Jaishree Pavilion : 4
+Fort Kochi : 19
+Cafe Coffee Day Lounge : 19
+Rayaru's Kitchen : 1
+Desi Bytes : 4
+Siri's Camille's Ice Cream Bar : 26
+Suchithra Biryani House : 13
+Aqua - The Park : 4
+New Taj : 4
+Tea Journey : 19
+Barista : 3
+Hunger Hitman : 4
+Smoodys : 9
+Late Night : 4
+Origin Espresso Bar : 19
+Hot Spot Cafe : 9
+B.M.W (Bhookh Mitaane Wala) : 4
+Book My Cakes : 26
+Madurai Idly Shop : 1
+KFC : 6
+Gokul Kuteera : 4
+Chung's Chinese Corner : 0
+Ovenstory Pizza : 19
+Rolls On Wheels : 9
+MMA Kababs Rolls & Biryani Center : 24
+Khana Khilana : 2
+Tea Garden : 4
+Barbeque Nation : 2
+Wats Ur Scoop? : 26
+Barebones - The Balcony Bar : 0
+The Bangalore Pantry : 1
+The Table Blue : 8
+The Warehouse : 18
+Tandoori Taal : 2
+Urban Turban : 15
+Cafe Five One Five : 21
+InBento : 19
+The Aromas of India : 1
+Infinitea Tea Room & Tea Store : 20
+Mango Tree Bistro Bar : 19
+The Ants Cafe & Store : 19
+Rayalaseema Ruchulu : 1
+The Rolling Pin : 12
+Hotel Brandavana Veg : 1
+Milano Ice Cream : 26
+Chatkaara Meals : 2
+Gurukrupa Paratha House : 4
+Cool cafe : 9
+Indira Sweets : 17
+Banarasi Tadka : 2
+nan : 2
+New Krishna Sagar : 1
+The Humming Tree : 8
+NH8 : 19
+Stand View Cake N Snack : 12
+Cafe Mozaic - Vivanta By Taj : 21
+Kanti Sweets : 19
+Kolkatta Famous Kati Rolls : 9
+Dad's Kitchen : 10
+The Grub Hub : 20
+Beanstalk : 9
+Danny Lambas Punjabi Dhaba : 24
+Delhi Highway : 2
+nan : 2
+Creme and Crust : 6
+Madhu Iyengars Bakery : 12
+The Spice Box : 1
+Ramji Chaiwale : 9
+Mamma Mexicana : 19
+Bombay Brasserie : 19
+Banchharam : 17
+Goli Vada Pav : 17
+KFC : 6
+Let's Kulfi : 26
+The Beer Joint : 4
+100 FT Boutique Bar Restaurant : 21
+C-harge by Chefkraft : 18
+Sly Granny - The Community House : 6
+The Donut Baker : 12
+The French Loaf : 12
+The Only Place : 18
+Iceperiment : 19
+Little Italy : 3
+Hyderabad Biryaani House : 24
+Ibaco : 26
+The Fatty Bao - Asian Gastro Bar : 19
+Cupcake Noggins : 26
+Rajan's Cafe : 24
+Pot Biryani : 13
+Shake It Off : 9
+Express Food Delivery : 4
+Zafranese Cafe : 9
+Paradise : 13
+Suvaai Restaurant : 1
+Curries And Pickles : 13
+Italia - The Park : 5
+Hotel Tarka : 2
+Mathsya Darshini : 19
+Eggzotic : 24
+Aysha Restaurant : 4
+Suryawanshi : 19
+Green G Juice Bar : 26
+Bismillah Royal Taj : 0
+Donne Biriyani Mane : 10
+Ooty Chocolates : 26
+Panda Foods : 2
+Adupadi : 1
+Neffy's - Cakes & More : 12
+Bakester : 18
+Chill Out : 26
+Geoffrey's - Royal Orchid Hotel : 18
+Mezzeh : 19
+RICE BAR : 13
+Grenoli : 19
+Tomatoes : 1
+Kanti's : 17
+Desi Tadka : 4
+Sidewalk Cafe & Bar - The Paul Bangalore : 3
+Unique Brew - Restaurant & Cafe : 22
+California Burrito : 9
+Yauatcha Terrace : 19
+Zen - The Leela Palace : 0
+Gurukrupa Paratha House : 4
+Little Orissa Restaurant : 4
+Night Booze : 2
+Biryani Paradise : 10
+Hotel Karavali : 4
+Vani Hindu Military Hotel : 1
+Jerry Mama's : 12
+Ruchi Restaurant : 4
+Ambur Dum Biriyani : 10
+Limelight - Royal Orchid Hotel : 2
+New Shahi Kabab Roll Center : 9
+The Black Rabbit : 18
+Cafe Flavorz : 18
+The Velu's : 9
+Leon Grill : 9
+Tayabbs : 9
+New Punjabi Hotel : 2
+Woodstok (Resto - Cafe) : 21
+Nammura Biriyani : 10
+The People's Pub : 4
+Sri Krishna Sweets : 26
+Me And My Cake : 12
+Ice Park Juice Centre : 19
+Jonah's : 21
+Sri Chamuneshwari Dosai Camp : 0
+Khaoo Miyyah : 4
+Annapurna Vaishno Punjabi Dhaba : 4
+Wanley : 0
+Cake Cafe : 12
+Knight's Hunger : 4
+Allahabadi Tadaka : 2
+Lavonne : 12
+Rotti Mane : 1
+Sri Venkateshwara Fast Food : 4
+Mother Cluckers Bar : 6
+Shree Annapoorneshwari Mess : 1
+WAT Bar - Sterlings MAC Hotel : 18
+Taruni Foods : 10
+Favorite Restaurant : 4
+Brunch Pizza : 19
+Oye Amritsar : 2
+Kolkata Rolls & Hot Dum Biriyani On Dial : 9
+Warm Oven : 12
+Box8 : 13
+Ambur Biriyani : 10
+The Teal Door Cafe : 1
+The Beer Cafe : 4
+Tasty Bawarchi : 2
+McDonald's : 9
+Calcutta Victoria Chat House : 17
+Natural Ice Cream : 26
+Maaheshwari Chaat Wala : 17
+Krispy Kreme : 26
+Bat Chef : 20
+Mummy's Kitchen : 24
+Punjabi Khazana : 2
+Vinny's : 3
+New Kudla : 1
+Banashankari Donne biryani : 10
+Aathurar : 1
+Punjabi Dhaba : 4
+Bonbonniere : 12
+MK Dabbawala : 2
+Kobe Sizzlers : 6
+Khan Saheb Grills and Rolls : 9
+Electra - Salt Edition 1 : 4
+Three Dots & A Dash : 8
+Graze - Vivanta By Taj : 3
+MR Mess : 4
+The Well Dressed Greens : 19
+LOFT38 : 21
+Nightfork : 24
+New Tasty Magic : 4
+Tippler - On The Roof : 2
+Cafe Thulp : 6
+Avanti Indian Barbeque & Grill : 2
+Pecos Stones : 19
+Tunday Kababi : 2
+Nossa Goa : 18
+Goli Vada Pav No. 1 : 17
+Cakoholic : 26
+Le Jardin - The Oberoi : 2
+Namdhari's Salad Bar : 9
+Loveshack : 2
+Glocal Junction : 2
+Singh Saab : 2
+DilliBite : 2
+Kabab Corner : 4
+Virgins : 19
+Momscurry : 11
+New Punjabi Hotel : 4
+Simhapuri Mess : 1
+nan : 1
+New Shanthi Sagar : 1
+Kumbakonam Degree Coffee : 19
+Chennai Cafe : 19
+Seafood Place : 19
+Nightpanda.in : 2
+Hotel Dil Coorg : 1
+Mighty Small : 0
+Big Pitcher : 2
+Le Gateau - The Cake Shop : 12
+Mukati Kitchen : 4
+Casio Juice Centre : 19
+Chinese Kitchen : 0
+Udupi Vaibhav : 1
+Midnight Rooster : 9
+Yauatcha : 0
+Horn OK Please : 14
+Mast Kalandar : 2
+Sethji Home Made Food : 2
+Onesta : 3
+The Nagarjuna Nakshatra : 2
+J's Cafe : 9
+Midnight Hunger Solutions 24/7 : 4
+Raaga : 4
+Xtreme Sports Bar : 4
+Coastal Delight : 4
+GMT Fine Italian Ice Cream : 26
+Knight Riders : 0
+Mixico : 19
+Leon Grill : 9
+TGI Fridays : 6
+Asian Box : 19
+Lassi Point : 19
+Taza Tawa : 4
+Bite Me Cupcakes : 26
+Anand Sweets and Savouries : 17
+Midnight Mania : 21
+TOT Cafe : 19
+Gobble Up Churros : 12
+Chefkraft : 9
+Biryani Bowl : 10
+Bflat and Highnote Bar and Dining : 4
+Ice - Vivanta By Taj : 18
+Chianti : 3
+Mary Cafe : 1
+The Lassi Park : 26
+Zu's Doner Kebaps : 9
+Nizaam's Kaati Rolls & Kebabs : 2
+TRP - That Roll Place : 9
+Bollywood Resto Lounge Bar : 4
+Maveli Restaurant : 1
+Juicy : 26
+Blimey : 21
+Roll Over : 26
+Donne Biriyani Mane : 10
+Garam Naram : 2
+Steaks and Shakes : 6
+Biryani Bazar : 10
+Starbucks Coffee : 19
+Halli Mane Rotti : 16
+Banana Leaf : 19
+Red Fork : 19
+Rotiyana : 2
+Cha Bar : 19
+Sagar Deluxe : 4
+Library Bar - The Leela Palace : 19
+Cafe Max : 21
+Friends Night Kitchen : 21
+Leaf It To Me : 19
+Blistering Barnacles : 0
+Hotel Green Land : 0
+Cake Genie : 9
+Khaayaal's - The Fusion Kitchen : 4
+Salt Mango Tree : 19
+Paratha Plaza : 2
+Chakh Le : 4
+nan : 4
+Master Chef Donne Biryani : 10
+Midnight Pizza Slurpp : 3
+Troika : 0
+Beer House : 4
+Rajdhani Thali Restaurant : 2
+Vasudev Adiga's : 4
+Himalyan Inn Tibet Kitchen : 0
+Helloo Delhi : 28
+Biryani House : 10
+The Bangalore Bakery Works : 12
+The Tower Of Pizza : 3
+Au Bon Pain : 12
+Jack & Sheik : 9
+Chitu's Kitchen : 27
+Ghar Ki Thali : 2
+Jiyo Natural : 2
+New Shanthi Sagar : 4
+Bhagini Samrudhi : 4
+Chaithanya Veg : 4
+Amma's Pastries : 12
+YOYO.ooo Frozen Yogurt : 26
+Bake a Smile : 12
+Le Cafe - EQUINOX : 26
+Deepthi Restaurant : 13
+Chakum Chukum Calcutta On A Roll : 9
+Jimi's Beer Cafe : 22
+20 Char - Sterlings MAC Hotel : 4
+Kalkatta Famous Chat : 17
+Sri Ganesh Fruit Juice Centre : 19
+Kartik's Mithai Shoppe : 17
+Shri Krishna Bhavan : 4
+Southindies : 1
+Juiceca : 19
+Vimmi's Cafe : 6
+Behrouz Biryani : 10
+Chinita Real Mexican Food : 19
+i-Bar - The Park : 4
+Au Bon Pain : 12
+Forage Fit Food : 8
+Bhaiya Ji Food Court : 2
+Sakka Eatery : 0
+Green Pepper : 0
+Aaha Andhra : 19
+Meat And Eat : 9
+Tadka Singh : 2
+Delite Chaat House : 17
+Dawood's Authentic Ambur Shadi Ka Biryani : 10
+nan : 10
+Ambur Hot Dum Biriyani : 10
+Vietnamese Kitchen : 0
+Waffle Magic : 26
+Taco Bell : 6
+CakeZone : 12
+Nandhana Palace : 24
+Retro Lounge Bar : 4
+Eatsomnia : 4
+New Life Kerala Restaurant : 19
+Imli : 2
+The Yogisthaan Cafe : 19
+Wok : 19
+Byte : 1
+H3O : 4
+Doffpub and Lounge : 22
+Srinathji's : 24
+Ambur Hot Dum Biryani : 10
+Home Touch Hotel : 1
+The Workshop Cafe : 4
+Deshi Fusion Pizza : 3
+Amexicano : 6
+Puma Social Club : 6
+Melting Spot : 3
+Laddoos : 17
+Faasos : 2
+nan : 2
+Cream Stone : 26
+Berry'd Alive : 26
+Hoppipola : 8
+Ginseng - Royal Orchid Hotel : 0
+Faasos : 2
+Under The Tree : 9
+Bean Flickers : 9
+Meal Diaries : 2
+Indian Biriyani Hotel : 10
+Subway : 9
+Paratha Point : 2
+DropKaffe : 19
+Jamavar - The Leela Palace : 1
+Anjappar : 1
+Daily Subs : 9
+Gujarati Tiffin : 19
+Pathaan Sir : 9
+Sri Nandini Mess : 4
+Shanthi Sweets & Bakery : 17
+Bismillah Ambur Biryani : 10
+Mamagoto : 0
+Oggarane Dabbe Chandrappa Hotel : 1
+Saka Eatery Outlet : 17
+Emperor Family Restaurant : 4
+Spoonful Of Sugar : 12
+Gelato Italiano : 19
+Rim Naam - The Oberoi : 19
+Burger Glory : 9
+Bery's Cafe : 19
+Byblos : 19
+Quench Bar : 18
+Cremee : 26
+Mast Biryani - Fresh Indian Kitchen : 13
+Liber : 21
+Pulla Reddy Sweets : 17
+Mac Fast Food : 0
+Kund Indian Barbeque : 15
+Give Me 5 Cafe : 18
+Soo Ra Sang : 19
+Ashwini Fast Food : 0
+Kettle & Kegs : 19
+SRA Hotel : 4
+Just Bake : 12
+Hotel Dinesh : 9
+Rahhams : 24
+Lido - Hyatt Bangalore MG Road : 4
+Zaica Dine & Wine : 2
+Rock N Roll : 4
+Andhra Ruchulu : 2
+Desi Spicey : 4
+Agent Jack's Bar : 4
+Liquid - Hyatt Bangalore MG Road : 0
+The Kebab Room - Restaurant & Brewery : 15
+Muni's Indo Thai Hotel : 2
+Mani's Dum Biryani : 10
+Kaayal : 19
+Shanthi : 4
+Citrus - The Leela Palace : 21
+Bhikaram Chandmal Bhujiawala : 2
+Punjabi's Food Corner : 2
+Pulimunchi : 19
+Vembanad - The Paul : 19
+Ambur Hot Dum Biryani : 10
+Empire Restaurant : 13
+Donne Biriyani Mane : 10
+Elois Restaurant : 0
+New Roll Centre : 9
+4
+1361.0
+1361.0
+0
+Init: initializing centroids
+Init: initializing clusters
+Starting iterations...
+Run 1, iteration: 1/100, moves: 1, cost: 49.0
+Run 1, iteration: 2/100, moves: 0, cost: 49.0
+Init: initializing centroids
+Init: initializing clusters
+Starting iterations...
+Run 2, iteration: 1/100, moves: 3, cost: 46.0
+Run 2, iteration: 2/100, moves: 0, cost: 46.0
+Init: initializing centroids
+Init: initializing clusters
+Starting iterations...
+Run 3, iteration: 1/100, moves: 0, cost: 51.0
+Init: initializing centroids
+Init: initializing clusters
+Starting iterations...
+Run 4, iteration: 1/100, moves: 1, cost: 51.0
+Run 4, iteration: 2/100, moves: 0, cost: 51.0
+Init: initializing centroids
+Init: initializing clusters
+Starting iterations...
+Run 5, iteration: 1/100, moves: 0, cost: 46.0
+Best run was number 2
+0 : 3 
+1 : 4 
+2 : 0 
+3 : 1 
+4 : 0 
+5 : 1 
+6 : 3 
+7 : 4 
+8 : 3 
+9 : 3 
+10 : 2 
+11 : 0 
+12 : 3 
+13 : 0 
+14 : 0 
+15 : 0 
+16 : 4 
+17 : 3 
+18 : 3 
+19 : 3 
+20 : 3 
+21 : 1 
+22 : 0 
+23 : 4 
+24 : 0 
+25 : 0 
+26 : 3 
+27 : 0 
+28 : 0 
+29 : 4 

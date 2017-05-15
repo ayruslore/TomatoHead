@@ -3,6 +3,7 @@ import numpy as np
 
 #select the right csv file 
 df = pd.read_csv("./Data/data/locationwise/Indiranagar.csv")
+one_hot_rating = pd.read_csv("./one_hot_rating.csv")
 ########feature seperator to build extra columns like one hot encoding for column cuisines
 cuisines = df['cuisines']
 
@@ -33,7 +34,7 @@ d = {}
 one_hot_cuisine = pd.DataFrame(data=d)
 
 for item in df2:
-	one_hot_cuisine[item] = np.zeros_like(df['cuisines'])
+	one_hot_cuisine[item] = np.zeros_like(df['cuisines'])#adding 0 colums with tag
 
 #print df.head()['cuisines'], df.head()['North Indian']
 
@@ -46,8 +47,24 @@ for row in range(len(cuisines)):
 			item = item[1:]
 		one_hot_cuisine.ix[row, item] = 1
 
+one_hot_cuisine['1 star']=one_hot_rating['1 star']
+one_hot_cuisine['2 star']=one_hot_rating['2 star']
+one_hot_cuisine['3 star']=one_hot_rating['3 star']
+one_hot_cuisine['4 star']=one_hot_rating['4 star']
+one_hot_cuisine['5 star']=one_hot_rating['5 star']
+one_hot_cuisine['not rated']=one_hot_rating['not rated']
 
-one_hot_cuisine.to_csv('example.csv')
+cloumn_names = one_hot_cuisine.columns
+cloumn_names = cloumn_names.tolist()
+i = 0 
+for x in cloumn_names:
+	occurance_count = one_hot_cuisine[x].sum()
+
+	if (occurance_count < 5):
+		one_hot_cuisine = one_hot_cuisine.drop([x], axis = 1)
+		print(x ," : ", occurance_count)
+
+one_hot_cuisine.to_csv('one_hot_cuisine.csv')
 
 '''
 highlights = df['highlights']
@@ -62,3 +79,12 @@ hf1 = pd.DataFrame({'highlights':highlight_list})
 
 hf2 = hf1.cuisine.unique()
 '''
+
+
+
+
+
+
+
+
+

@@ -31,4 +31,4 @@ super_class = pandas.DataFrame(model.cluster_centroids_)
 model2 = kmodes.KModes(n_clusters = 5, init='Huang', n_init=5, verbose=1)
 clusters2 = model2.fit_predict(super_class)
 for i in range(len(clusters2)):
-		print("{} : {} ".format(model.cluster_centroids_[i],clusters2[i]))
+		print("{} : {} ".format(i,clusters2[i]))
