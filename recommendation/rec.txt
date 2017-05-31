@@ -1,0 +1,110 @@
+Apache Solr - Mahout’s ItemSimilarityJob
+Hadoop
+PredictionIO
+
+Metadata about the items (artists, albums, tracks) for music that will be recommended
+and histories of the behavior of a large number of site visitors to serve as the
+training data.
+
+The logs containing user behavior historical data were generated using random-number
+generators that simulated listeners who did a random walk among musical genres.
+This is a very simple model that allows some plausible recommendations to be made,
+but it does not fully emulate real users. These simulated listening logs were formatted
+as CSV data to emulate data as a web server might collect it. The quality of the
+recommendations in the demonstration system are primarily limited by the quality
+of the synthetic data. Much as with a real system, getting more and better data
+would make a large difference in quality of the recommendations.
+
+User activity log-
+time, user number, activity, location, restaurant
+
+A Peek Inside the Engine
+For this project, we used Apache Solr via the commercial software product known as
+LucidWorks Search. LucidWorks provides considerable convenience in working with Solr
+by providing a comprehensive binary package with good installers and a simpler web
+interface than the native Solr interface provides.
+Recall that data stored in Solr is organized as collections. For our music item
+metadata, we used one collection each for artists, albums, and tracks. In the artists
+collection, for example, there is a Solr document for each artist. The document
+contains specific information about the item in fields that can be indexed and made
+searchable by Solr’s text-retrieval capabilities. In the Music Machine, this search
+
+Using Search to Make the Recommendations
+Our demonstration program also includes a mockup of a music-listening service running
+using a micro web server known as Twisted Web. This easy-to-run open source web server
+can be configured with Python. All the pages in the system are completely static,
+and all history accumulation is done using browser cookies.
+To demonstrate how recommendations occur with the demo site, a user visits the Music
+Machine website and takes action in the form of “listening” to a song by a favorite
+artist—in this case, a track by classic jazz artist Duke Ellington. This behavior
+is retained in a browser cookie, but when a user emulates listening to a track, it
+also has a realtime effect: it triggers recommendations. The system does this by
+formatting the list of artists in the recent listening history as a query for Solr
+that retrieves other artists by searching for indicator artists.
+Solr’s search finds the best matches based on the data stored in the indicator fields
+of Solr documents in the artists collection. Solr computes a relevance score to
+determine which artists will be listed first in the recommendations.
+The recommendation engine built for the Music Machine web server is a working recommender,
+and the results are OK, but not stellar. Why? For one thing, the user histories
+used to find co-occurrence and indicators were synthetic data instead of real
+histories for real visitors to a website. The synthetic data mimicked some aspects
+of the behaviors of real users, but it isn’t a truly accurate representation of
+what people do. Another limitation is that the system was only trained on the equivalent
+of a few hours of data for a moderately sized website, which is not enough data to
+show real subtleties.
+
+Also see: recommendation dithering,
+
+Anti-flood
+Most recommendation algorithms, including the one discussed in this paper, can give
+you too much of a good thing. Once it zeros in on your favorite book, music, video,
+or whatever, any recommendation engine that works on individual items is likely to
+give you seemingly endless variations on the same theme if such variations can be found.
+It is much better to avoid monotony in the user experience by providing diversity
+in recommendations with no more than a few of each kind of results. This approach
+also protects against having several kinds of results obscured by one popular kind.
+It is conceivable to build this preference for diversity into the recommendation
+engine itself, but our experience has been that it is much easier to ruin an otherwise
+good recommendation engine than it is to get diverse results out of the engine while
+maintaining overall quality. As a precaution, it is much easier to simply reorder
+the recommendations to make the results appear more diverse.
+To do this, many working recommendation systems have heuristic rules known collectively
+as anti-flood measures. The way that these systems work is that they will penalize
+the rank of any results that appear too similar to higher-ranked results. For instance,
+the second song by the same artist might not be penalized, but the third song by the
+same artist might be penalized by 20 result positions. This example of penalizing the
+same artist is just one way of implementing anti-flood. Many others are plausible,
+and which ones work best on your data is highly idiosyncratic to your own situation.
+
+A better recommender system is directed more toward personalized recommendations by
+taking into consideration the available digital footprint of the user, such as
+user-demographic information, transaction details, interaction logs, and information
+about a product, such as specifications, feedback from users, comparison with other
+products, and so on, before making recommendations.
+
+Ratings
+Ratings are important in the sense that they tell you what a user feels about a
+product. User’s feelings about a product can be reflected to an extent in the actions
+he or she takes such as likes, adding to shopping cart, purchasing or just clicking.
+Recommendation systems can assign implicit ratings based on user actions. The maximum
+rating is 5. For example, purchasing can be assigned a rating of 4, likes can get 3,
+clicking can get 2 and so on. Recommendation systems can also take into account ratings
+and feedback users provide.
+
+Filtering
+Filtering means filtering products based on ratings and other user data. Recommendation
+systems use three types of filtering: collaborative, user-based and a hybrid approach.
+In collaborative filtering, a comparison of users’ choices is done and recommendations
+given. For example, if user X likes products A, B, C, and D and user Y likes products
+A, B, C, D and E, the it is likely that user X will be recommended product E because
+there are a lot of similarities between users X and Y as far as choice of products is
+concerned.
+Several reputed brands such as Facebook, Twitter, LinkedIn, Amazon, Google News, Spotify
+and Last.fm use this model to provide effective and relevant recommendations. In
+user-based filtering, the user’s browsing history, likes, purchases and ratings are
+taken into account before providing recommendations. This model is used by many reputed
+brands such as IMDB, Rotten Tomatoes and Pandora. Many companies also use a hybrid approach.
+Netflix is known to use a hybrid approach.
+
+Shopping has a connection with psychology. Shoppers buy for instant gratification,
+instant mood uplift, social esteem and reasons not even known to them clearly.
